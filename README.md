@@ -42,7 +42,7 @@ create .env file and mention the below content in it :-
 - GROQ_BASE_URL=https://api.groq.com/openai/v1
 - GROQ_MODEL=llama3-8b-8192
 
-5.Run Backend (FastAPI) 
+ 5.Run Backend (FastAPI) 
 - cmd : uvicorn main:app --reload
 
 6. Run Frontend (Streamlit)

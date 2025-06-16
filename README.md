@@ -18,3 +18,8 @@
 - Vector Store       FAISS
 - LLM                Groq (Mixtral, or similar)
 - File Parsing       PyMuPDF, python-docx
+
+📂 Project Structure
+
+![Screenshot 2025-06-16 151102](https://github.com/user-attachments/assets/1f6fab3b-49c6-4821-a5c2-e05aec061129)
+

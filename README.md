@@ -11,10 +11,10 @@
 - Built with FastAPI, Streamlit, FAISS vector store, HuggingFace embeddings, and a Groq LLM.
 
 🧱 Tech Stack
-Layer              Technology
-Frontend           Streamlit (Custom UI)
-Backend            FastAPI
-Embeddings         HuggingFace (MiniLM)
-Vector Store       FAISS
-LLM                Groq (Mixtral, or similar)
-File Parsing       PyMuPDF, python-docx
+- Layer              Technology
+- Frontend           Streamlit (Custom UI)
+- Backend            FastAPI
+- Embeddings         HuggingFace (MiniLM)
+- Vector Store       FAISS
+- LLM                Groq (Mixtral, or similar)
+- File Parsing       PyMuPDF, python-docx

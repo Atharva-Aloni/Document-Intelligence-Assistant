@@ -23,3 +23,26 @@
 
 ![Screenshot 2025-06-16 151102](https://github.com/user-attachments/assets/1f6fab3b-49c6-4821-a5c2-e05aec061129)
 
+⚙️ Setup Instructions
+
+1. Clone the Repository
+cmd : git clone https://github.com/your-username/document-intelligence-assistant.git
+cd document-intelligence-assistant
+
+2. Create and Activate Virtual Environment
+cmd : python -m venv .venv
+activation command : .venv\Scripts\activate
+
+3. Install Requirements
+cmd : pip install -r requirements.txt
+
+4. Set Environment Variables
+create .env file and mention the below content in it :-
+GROQ_API_KEY=your-groq-key
+GROQ_MODEL=mixtral-8x7b-32768
+
+5.Run Backend (FastAPI) 
+cmd : uvicorn main:app --reload
+
+6. Run Frontend (Streamlit)
+cmd : streamlit run app.py
